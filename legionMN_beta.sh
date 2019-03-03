@@ -12,7 +12,7 @@ COIN_TGZ='https://github.com/nashsclay/Beta-Legion/releases/download/v0.1beta/le
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='LegionCoinBeta'
 COIN_PORT=5860
-RPC_PORT=5860
+RPC_PORT=5861
 
 NODEIP=$(curl -s4 icanhazip.com)
 
