@@ -3,7 +3,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='legion.conf'
-CONFIGFOLDER='/root/.LegionMN'
+CONFIGFOLDER='/root/.legionMN'
 COIN_DAEMON='legiond'
 COIN_CLI='legion-cli'
 COIN_TX='legion-tx'
