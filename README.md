@@ -11,7 +11,7 @@ DO NOT USE THIS ONE YET ABOVE
 
 If you just want the commands for a NEW VPS setup:
 ```
-https://raw.githubusercontent.com/nashsclay/Beta-Legion/master/legionMN_beta.sh 
+wget https://raw.githubusercontent.com/nashsclay/Beta-Legion/master/legionMN_beta.sh 
 chmod +x legionMN_beta.sh  
 ./legionMN_beta.sh 
 ```
