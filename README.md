@@ -1,13 +1,4 @@
-# Beta-Legion-Masternode Setup
-
-DO NOT USE THIS ONE YET BELOW
-If you want the commands just to UPDATE your CURRENT MN:
-```
-wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/update_current_cc.sh
-chmod +x update_current_cc.sh  
-./update_current_cc.sh 
-```
-DO NOT USE THIS ONE YET ABOVE
+# New-Legion-Masternode Setup
 
 If you just want the commands for a NEW VPS setup:
 ```
@@ -16,7 +7,7 @@ chmod +x legionMN_beta.sh
 ./legionMN_beta.sh 
 ```
 
-This Beta-Legion-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
+This New-Legion-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
 
 Please note to run this script you MUST:  
 
@@ -64,7 +55,7 @@ Once reopen the wallet, go to the Masternode tab and press Update.
 
 Eensure your MN appears, click Update if it does not appear. Now cointinue to the next section of this guide.
 
-## To Install the Beta-Legion-Masternode on VPS Server
+## To Install the New-Legion-Masternode on VPS Server
 
 Go through setting up the wallet and MN information on your computer. Then once that is ready to go, continue on to this guide. 
 
@@ -138,7 +129,7 @@ This will allow you to edit your masternode's wallet (not your computer's wallet
 `nano ~/.legionMN/legion.conf`
 
 
-This is where your Beta-Legion-Masternode program files are saved to
+This is where your New-Legion-Masternode program files are saved to
 
 `cd /usr/local/bin`
 
@@ -148,7 +139,7 @@ Return to root home folder
 `cd ~`
 
 
-This will give you access to the folder of Beta-Legion-Masternode files. Notice the period in front of the folder. If your are in the home folder and do **ls** command, it will not show the folder. Period means hidden. Correct command to display this folder in the home folder is **ls -al**
+This will give you access to the folder of New-Legion-Masternode files. Notice the period in front of the folder. If your are in the home folder and do **ls** command, it will not show the folder. Period means hidden. Correct command to display this folder in the home folder is **ls -al**
 
 `cd ~/.legionMN`
 
